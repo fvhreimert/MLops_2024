@@ -7,7 +7,7 @@ import random
 import os
 
 
-DATA_PATH = "/Users/frederikreimert/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/Kandidat_DTU/2024E/MLops/dtu_mlops/corruptmnist_v1"
+DATA_PATH = "/Users/frederikreimert/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/Kandidat_DTU/2024E/MLops/MLops_2024/data/corruptmnist_v1"
 
 test_path = "/test_images.pt"
 test_target_path = "/test_target.pt"

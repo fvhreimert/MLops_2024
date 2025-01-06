@@ -79,7 +79,7 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10):
         print(f"Epoch {epoch+1}/{epochs}, Loss: {avg_loss:.4f}, Accuracy: {avg_accuracy:.4f}")
 
     print("Training complete.")
-    torch.save(model.state_dict(), "model.pth")
+    torch.save(model.state_dict(), "model.pt")
     plot_training_statistics(train_loss, train_accuracy, save_path="training_statistics.png")
 
 @app.command()
